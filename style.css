@@ -1,3 +1,5 @@
+
+
 .square {
     outline: .5px solid grey;
     width: 10px;
@@ -6,6 +8,7 @@
 
 .container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     height: 160px;
     width: 160px;

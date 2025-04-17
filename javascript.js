@@ -23,9 +23,9 @@ for (let i = 0; i < gridSize; i++) {
 }
 
 function resizeContainer() {
-    const gridSize = gridSize * 10;
-    container.style.width = gridSize + "px";
-    container.style.height = gridSize + "px";
+    const grid = n * 10;
+    container.style.width = grid + "px";
+    container.style.height = grid + "px";
 }
 resizeContainer();
 
