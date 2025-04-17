@@ -1,12 +1,21 @@
+body {
+    background-color: black;
+}
 
+
+.container {
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}
 
 .square {
-    outline: .5px solid grey;
+    outline: .5px solid rgb(213, 213, 213);
     width: 10px;
     height: 10px;
 }
 
-.container {
+.grid {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
