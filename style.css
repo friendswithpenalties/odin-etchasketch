@@ -2,17 +2,16 @@ body {
     background-color: black;
 }
 
-
 .container {
     display: flex;
     justify-content: center;
-    padding: 100px;
+    padding: 150px;
 }
 
 .square {
     outline: .5px solid rgb(213, 213, 213);
-    width: 15px;
-    height: 15px;
+    width: 10px;
+    height: 10px;
 }
 
 .grid {
@@ -23,3 +22,12 @@ body {
     width: 160px;
 }
 
+.headerbtn {
+    display: flex;
+    justify-content: center;
+}
+
+.inputbtn {
+    text-align: center;
+    margin: 30px;
+}

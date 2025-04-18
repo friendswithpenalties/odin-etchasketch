@@ -9,7 +9,7 @@ function createSquareDiv() {
     grid.appendChild(squareDiv);
 }
 
-let n = 25;
+let n = 50;
 let gridSize = n * n;
 console.log(gridSize);
 
@@ -18,7 +18,7 @@ for (let i = 0; i < gridSize; i++) {
 }
 
 function resizeContainer(n) {
-    const newGrid = n * 15;
+    const newGrid = n * 10;
     grid.style.width = newGrid + "px";
     grid.style.height = newGrid + "px";
     grid.style.minWidth = newGrid + "px";
