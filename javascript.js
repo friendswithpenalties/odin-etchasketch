@@ -34,17 +34,21 @@ inputbtn.addEventListener("click", () => {
     n = prompt("Input new grid size:");
     removeGridSquares();
     createGrid(n);
+    colorSquares();
 });
 
 window.onload = () => {
     createGrid(4);
+    colorSquares();
 }
 // Setting up hover effect so grid divs change color //
 // try making new div for new color square?//
 
-const colorSquare = document.querySelectorAll(".square");
-for (const color of colorSquare) {
-    color.addEventListener("mouseover", () => {
-        color.style.backgroundColor = "white";
-    });
-}
+function colorSquares() {
+    const colorSquare = document.querySelectorAll(".square");
+    for (const color of colorSquare) {
+        color.addEventListener("mouseover", () => {
+            color.style.backgroundColor = "white";
+        });
+    }
+};
